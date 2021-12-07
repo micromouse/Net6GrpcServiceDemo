@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nHcy3NQfS8fITvQohppi8mBhzO+DCoUzvquGFYAfki8=",
+  "Source": "AspNetCoreGrpcService",
+  "BasePath": "_content/AspNetCoreGrpcService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

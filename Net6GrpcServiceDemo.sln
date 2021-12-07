@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreGrpcService", "AspNetCoreGrpcService\AspNetCoreGrpcService.csproj", "{E21339A5-7A43-4D20-BA65-854521F55667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerServiceGrpcService", "WorkerServiceGrpcService\WorkerServiceGrpcService.csproj", "{B24F45F2-8656-4E55-BDA2-025C3CB39A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E21339A5-7A43-4D20-BA65-854521F55667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21339A5-7A43-4D20-BA65-854521F55667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21339A5-7A43-4D20-BA65-854521F55667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21339A5-7A43-4D20-BA65-854521F55667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24F45F2-8656-4E55-BDA2-025C3CB39A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24F45F2-8656-4E55-BDA2-025C3CB39A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24F45F2-8656-4E55-BDA2-025C3CB39A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24F45F2-8656-4E55-BDA2-025C3CB39A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332E7A29-70F9-475A-93A2-F4C33662C384}
+	EndGlobalSection
+EndGlobal

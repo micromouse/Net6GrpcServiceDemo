@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e21339a5-7a43-4d20-ba65-854521f55667": {
+      "ProjectGuid": "e21339a5-7a43-4d20-ba65-854521f55667",
+      "DisplayName": "AspNetCoreGrpcService",
+      "ColorIndex": 0
+    },
+    "b24f45f2-8656-4e55-bda2-025c3cb39a4d": {
+      "ProjectGuid": "b24f45f2-8656-4e55-bda2-025c3cb39a4d",
+      "DisplayName": "WorkerServiceGrpcService",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
