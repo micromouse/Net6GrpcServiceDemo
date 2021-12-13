@@ -10,7 +10,17 @@
       "ProjectGuid": "b24f45f2-8656-4e55-bda2-025c3cb39a4d",
       "DisplayName": "WorkerServiceGrpcService",
       "ColorIndex": 1
+    },
+    "235c060d-f4d3-4e7b-a1eb-e8a2983177e1": {
+      "ProjectGuid": "235c060d-f4d3-4e7b-a1eb-e8a2983177e1",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

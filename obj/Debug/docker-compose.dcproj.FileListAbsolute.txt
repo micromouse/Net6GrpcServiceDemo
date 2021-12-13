@@ -1,0 +1,9 @@
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\AspNetCoreGrpcService.dll
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\WorkerServiceGrpcService.dll
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Google.Protobuf.dll
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Grpc.Core.Api.dll
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Grpc.AspNetCore.Server.dll
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Grpc.Net.Common.dll
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\AspNetCoreGrpcService.pdb
+E:\mystudys\Net6GrpcServiceDemo\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+E:\mystudys\Net6GrpcServiceDemo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
