@@ -7,3 +7,13 @@ E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Grpc.Net.Common.dll
 E:\mystudys\Net6GrpcServiceDemo\bin\Debug\AspNetCoreGrpcService.pdb
 E:\mystudys\Net6GrpcServiceDemo\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 E:\mystudys\Net6GrpcServiceDemo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\AspNetCoreGrpcService.deps.json
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\AspNetCoreGrpcService.runtimeconfig.json
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\appsettings.Development.json
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\appsettings.json
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\AspNetCoreGrpcService.exe
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\WorkerServiceGrpcService.deps.json
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\WorkerServiceGrpcService.runtimeconfig.json
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\WorkerServiceGrpcService.exe
+E:\mystudys\Net6GrpcServiceDemo\bin\Debug\WorkerServiceGrpcService.pdb
+E:\mystudys\Net6GrpcServiceDemo\obj\Debug\docker-compose.dcproj.CopyComplete

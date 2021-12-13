@@ -34,7 +34,7 @@ namespace Net6GrpcServiceDemo.WorkerServiceGrpcService {
                 .ConfigureServices(services => services.AddGrpc())
                 .ConfigureKestrel(options =>
                 {
-                    options.ListenAnyIP(5000, listenOptions => listenOptions.Protocols = HttpProtocols.Http1AndHttp2);
+                    options.ListenAnyIP(5001, listenOptions => listenOptions.Protocols = HttpProtocols.Http1AndHttp2);
                 });
 
             var app = builder.Build();
