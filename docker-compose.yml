@@ -15,3 +15,9 @@ services:
       context: .
       dockerfile: WorkerServiceGrpcService/Dockerfile
 
+  consolegrpcclient:
+    image: ${DOCKER_REGISTRY-}consolegrpcclient
+    build:
+      context: .
+      dockerfile: ConsoleGrpcClient/Dockerfile
+

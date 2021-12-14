@@ -14,7 +14,6 @@ E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\bin\Debug\net6.0\Grpc.N
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\bin\Debug\net6.0\Grpc.Net.Common.dll
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\bin\Debug\net6.0\GrpcFileStorage.dll
-E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.csproj.AssemblyReference.cache
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.GeneratedMSBuildEditorConfig.editorconfig
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.AssemblyInfoInputs.cache
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.AssemblyInfo.cs
@@ -24,3 +23,4 @@ E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\Worker
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\ref\WorkerServiceGrpcService.dll
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.pdb
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.genruntimeconfig.cache
+E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.csproj.AssemblyReference.cache

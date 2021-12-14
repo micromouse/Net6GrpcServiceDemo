@@ -27,3 +27,4 @@ E:\mystudys\Net6GrpcServiceDemo\AspNetCoreGrpcService\obj\Debug\net6.0\ref\AspNe
 E:\mystudys\Net6GrpcServiceDemo\AspNetCoreGrpcService\obj\Debug\net6.0\AspNetCoreGrpcService.pdb
 E:\mystudys\Net6GrpcServiceDemo\AspNetCoreGrpcService\obj\Debug\net6.0\AspNetCoreGrpcService.genruntimeconfig.cache
 E:\mystudys\Net6GrpcServiceDemo\AspNetCoreGrpcService\obj\Debug\net6.0\AspNetCoreGrpcService.csproj.AssemblyReference.cache
+E:\mystudys\Net6GrpcServiceDemo\AspNetCoreGrpcService\bin\Debug\net6.0\Grpc.AspNetCore.Web.dll

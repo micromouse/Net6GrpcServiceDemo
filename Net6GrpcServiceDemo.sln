@@ -9,6 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerServiceGrpcService", 
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{235C060D-F4D3-4E7B-A1EB-E8A2983177E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGrpcClient", "ConsoleGrpcClient\ConsoleGrpcClient.csproj", "{BD6E9778-A035-4775-BA6A-33FF703664EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69E3BCF9-03E4-45C9-A63E-71F3756B8E93}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,10 @@ Global
 		{235C060D-F4D3-4E7B-A1EB-E8A2983177E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{235C060D-F4D3-4E7B-A1EB-E8A2983177E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{235C060D-F4D3-4E7B-A1EB-E8A2983177E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6E9778-A035-4775-BA6A-33FF703664EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6E9778-A035-4775-BA6A-33FF703664EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6E9778-A035-4775-BA6A-33FF703664EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6E9778-A035-4775-BA6A-33FF703664EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConsoleGrpcClient": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
