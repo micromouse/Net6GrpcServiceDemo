@@ -9,13 +9,16 @@ namespace Net6GrpcServiceDemo.WorkerServiceGrpcService {
     /// 启动Grpc后台服务
     /// </summary>
     public class StartGrpcServiceWorker : BackgroundService {
+        private readonly IConfiguration _configuration;
         private readonly ILogger<StartGrpcServiceWorker> _logger;
 
         /// <summary>
         /// 初始化启动Grpc后台服务
         /// </summary>
+        /// <param name="configuration">配置</param>
         /// <param name="logger">日志器</param>
-        public StartGrpcServiceWorker(ILogger<StartGrpcServiceWorker> logger) {
+        public StartGrpcServiceWorker(IConfiguration configuration, ILogger<StartGrpcServiceWorker> logger) {
+            _configuration = configuration;
             _logger = logger;
         }
 
@@ -34,7 +37,7 @@ namespace Net6GrpcServiceDemo.WorkerServiceGrpcService {
                 .ConfigureServices(services => services.AddGrpc())
                 .ConfigureKestrel(options =>
                 {
-                    options.ListenAnyIP(5001, listenOptions => listenOptions.Protocols = HttpProtocols.Http1AndHttp2);
+                    options.ListenAnyIP(int.Parse(_configuration["PORT"]), listenOptions => listenOptions.Protocols = HttpProtocols.Http1AndHttp2);
                 });
 
             var app = builder.Build();

@@ -24,7 +24,3 @@ E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\Worker
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\ref\WorkerServiceGrpcService.dll
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.pdb
 E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.genruntimeconfig.cache
-E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\WorkerServiceGrpcService.MvcApplicationPartsAssemblyInfo.cache
-E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\staticwebassets.build.json
-E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\staticwebassets.development.json
-E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService\obj\Debug\net6.0\scopedcss\bundle\WorkerServiceGrpcService.styles.css

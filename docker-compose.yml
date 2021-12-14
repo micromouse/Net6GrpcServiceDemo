@@ -3,12 +3,14 @@ version: '3.4'
 services:
   aspnetcoregrpcservice:
     image: ${DOCKER_REGISTRY-}aspnetcoregrpcservice
+    container_name: AspnetCoreGrpcService
     build:
       context: .
       dockerfile: AspNetCoreGrpcService/Dockerfile
 
   workerservicegrpcservice:
     image: ${DOCKER_REGISTRY-}workerservicegrpcservice
+    container_name: WorkerServiceGrpcService
     build:
       context: .
       dockerfile: WorkerServiceGrpcService/Dockerfile

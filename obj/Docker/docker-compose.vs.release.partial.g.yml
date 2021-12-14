@@ -2,7 +2,6 @@ version: '3.4'
 
 services:
   aspnetcoregrpcservice:
-    container_name: AspNetCoreGrpcService
     build:
       labels:
         com.microsoft.created-by: "visual-studio"
@@ -21,7 +20,6 @@ services:
       com.microsoft.visual-studio.project-name: "AspNetCoreGrpcService"
     tty: true
   workerservicegrpcservice:
-    container_name: WorkerServiceGrpcService
     build:
       labels:
         com.microsoft.created-by: "visual-studio"

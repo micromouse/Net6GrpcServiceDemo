@@ -3,7 +3,6 @@ version: '3.4'
 services:
   aspnetcoregrpcservice:
     image: aspnetcoregrpcservice:dev
-    container_name: AspNetCoreGrpcService
     build:
       target: base
       labels:
@@ -32,7 +31,6 @@ services:
     tty: true
   workerservicegrpcservice:
     image: workerservicegrpcservice:dev
-    container_name: WorkerServiceGrpcService
     build:
       target: base
       labels:

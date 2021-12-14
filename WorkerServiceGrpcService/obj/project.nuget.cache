@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ghXTG2SeT3njisLxamBLj8fdxbSCkVpz2/mzfyeIW84G3whcTVK2Pa3pbUXWIbBdXC00uMOqOtIKHeJssksvCQ==",
+  "dgSpecHash": "JbMDlpmyrLtpZ7l4Gp7kQ7Ja4m3XaNRtcnFRuuX0duwlsSHDDNYEFdNQKH4Dw0KNlrQz07LIxlwOzCkVaCjK7w==",
   "success": true,
   "projectFilePath": "E:\\mystudys\\Net6GrpcServiceDemo\\WorkerServiceGrpcService\\WorkerServiceGrpcService.csproj",
   "expectedPackageFiles": [
