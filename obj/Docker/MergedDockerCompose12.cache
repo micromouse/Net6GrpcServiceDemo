@@ -1,0 +1,37 @@
+services:
+  aspnetcoregrpcservice:
+    build:
+      context: E:\mystudys\Net6GrpcServiceDemo
+      dockerfile: AspNetCoreGrpcService/Dockerfile
+    container_name: AspnetCoreGrpcService
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: aspnetcoregrpcservice
+    ports:
+    - published: 5009
+      target: 80
+    - published: 5010
+      target: 81
+    volumes:
+    - C:\Users\mumu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\mumu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  consolegrpcclient:
+    build:
+      context: E:\mystudys\Net6GrpcServiceDemo
+      dockerfile: ConsoleGrpcClient/Dockerfile
+    environment:
+      Grpc_ServicePort: '5009'
+    image: consolegrpcclient
+  workerservicegrpcservice:
+    build:
+      context: E:\mystudys\Net6GrpcServiceDemo
+      dockerfile: WorkerServiceGrpcService/Dockerfile
+    container_name: WorkerServiceGrpcService
+    environment:
+      PORT: '5011'
+    image: workerservicegrpcservice
+    ports:
+    - published: 5011
+      target: 5011
+version: '3.4'

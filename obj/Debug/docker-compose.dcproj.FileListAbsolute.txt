@@ -49,5 +49,3 @@ E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Microsoft.Extensions.FileSystemGlobbin
 E:\mystudys\Net6GrpcServiceDemo\bin\Debug\System.Diagnostics.EventLog.dll
 E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 E:\mystudys\Net6GrpcServiceDemo\bin\Debug\ConsoleGrpcClient.pdb
-E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Grpc.AspNetCore.Web.dll
-E:\mystudys\Net6GrpcServiceDemo\bin\Debug\Grpc.Net.Client.Web.dll

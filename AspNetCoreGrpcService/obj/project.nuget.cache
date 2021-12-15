@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qu0ej9YGOosbF2SAuu5Qa8cqwzwDHp62rkORYZ/tK7uyerxxvoq+puH3pn/sfaRZts2sJ5mnJRYWDiXCNrsCxw==",
+  "dgSpecHash": "9qx2DtifAqaxfIsx5A0RiRUejZnyoPS2JpC4k7CQ02J0GQA+7B3yE34JdO7ufi3o5WT4LIv4ntM9Gnf9Fmhviw==",
   "success": true,
   "projectFilePath": "E:\\mystudys\\Net6GrpcServiceDemo\\AspNetCoreGrpcService\\AspNetCoreGrpcService.csproj",
   "expectedPackageFiles": [

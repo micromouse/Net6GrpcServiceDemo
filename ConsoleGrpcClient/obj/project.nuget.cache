@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LzgNgEm5WJTzGXPDAUnc0ka7u02RnGy/IAyr1YVodj6wrl5mgYVs2AAM+g3odfUm0kssRF1ghP6VeRhUIT5k/w==",
+  "dgSpecHash": "NKHs7La6ZU7skNadDfd9WrSr0sAa3QnwpjoVRNvATQNgcMpW734wm6QTHm+hS3WzWayL1JL279Q3FKScPYDMDQ==",
   "success": true,
   "projectFilePath": "E:\\mystudys\\Net6GrpcServiceDemo\\ConsoleGrpcClient\\ConsoleGrpcClient.csproj",
   "expectedPackageFiles": [

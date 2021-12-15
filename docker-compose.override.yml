@@ -7,7 +7,7 @@ services:
       - ASPNETCORE_URLS=https://+:443;http://+:80
     ports:
       - "5009:80"
-      - "5010:443"
+      - "5010:81"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
@@ -18,4 +18,4 @@ services:
       - "5011:5011"
   consolegrpcclient:
     environment:
-      - Grpc_ServicePort=5009
+      - Grpc_ServicePort=81

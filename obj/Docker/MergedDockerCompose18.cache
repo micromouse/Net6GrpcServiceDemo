@@ -1,0 +1,104 @@
+services:
+  aspnetcoregrpcservice:
+    build:
+      context: E:\mystudys\Net6GrpcServiceDemo
+      dockerfile: AspNetCoreGrpcService/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: AspNetCoreGrpcService
+      target: base
+    container_name: AspnetCoreGrpcService
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      Logging__Console__FormatterName: Json
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+    image: aspnetcoregrpcservice:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2  "/app/bin/Debug/net6.0/AspNetCoreGrpcService.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5009
+      target: 80
+    - published: 5010
+      target: 81
+    tty: true
+    volumes:
+    - E:\mystudys\Net6GrpcServiceDemo\AspNetCoreGrpcService:/app:rw
+    - C:\Users\mumu\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\mumu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\mumu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+    - C:\Users\mumu\.nuget\packages:/root/.nuget/packages:ro
+    - E:\mystudys\Net6GrpcServiceDemo:/src:rw
+  consolegrpcclient:
+    build:
+      context: E:\mystudys\Net6GrpcServiceDemo
+      dockerfile: ConsoleGrpcClient/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ConsoleGrpcClient
+      target: base
+    container_name: ConsoleGrpcClient
+    entrypoint: tail -f /dev/null
+    environment:
+      Grpc_ServicePort: '81'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+    image: consolegrpcclient:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2  "/app/bin/Debug/net6.0/ConsoleGrpcClient.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    tty: true
+    volumes:
+    - E:\mystudys\Net6GrpcServiceDemo\ConsoleGrpcClient:/app:rw
+    - C:\Users\mumu\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+    - C:\Users\mumu\.nuget\packages:/root/.nuget/packages:ro
+  workerservicegrpcservice:
+    build:
+      context: E:\mystudys\Net6GrpcServiceDemo
+      dockerfile: WorkerServiceGrpcService/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: WorkerServiceGrpcService
+      target: base
+    container_name: WorkerServiceGrpcService
+    entrypoint: tail -f /dev/null
+    environment:
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+      PORT: '5011'
+    image: workerservicegrpcservice:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2  "/app/bin/Debug/net6.0/WorkerServiceGrpcService.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5011
+      target: 5011
+    tty: true
+    volumes:
+    - E:\mystudys\Net6GrpcServiceDemo\WorkerServiceGrpcService:/app:rw
+    - C:\Users\mumu\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+    - C:\Users\mumu\.nuget\packages:/root/.nuget/packages:ro
+version: '3.4'
