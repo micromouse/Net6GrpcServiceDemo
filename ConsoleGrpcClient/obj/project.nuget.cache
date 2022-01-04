@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NKHs7La6ZU7skNadDfd9WrSr0sAa3QnwpjoVRNvATQNgcMpW734wm6QTHm+hS3WzWayL1JL279Q3FKScPYDMDQ==",
+  "dgSpecHash": "U6tmKYqWZYX0G75AoEpgbDq0778U1Q0HqT6xb7gQM54ibECfMvJLyuiBpFVLqEx9vrHXKA6Sa7j9KDtd4rjo3A==",
   "success": true,
   "projectFilePath": "E:\\mystudys\\Net6GrpcServiceDemo\\ConsoleGrpcClient\\ConsoleGrpcClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mumu\\.nuget\\packages\\google.protobuf\\3.19.1\\google.protobuf.3.19.1.nupkg.sha512",
     "C:\\Users\\mumu\\.nuget\\packages\\grpc.core.api\\2.41.0\\grpc.core.api.2.41.0.nupkg.sha512",
     "C:\\Users\\mumu\\.nuget\\packages\\grpc.net.client\\2.41.0\\grpc.net.client.2.41.0.nupkg.sha512",
-    "C:\\Users\\mumu\\.nuget\\packages\\grpc.net.client.web\\2.41.0\\grpc.net.client.web.2.41.0.nupkg.sha512",
     "C:\\Users\\mumu\\.nuget\\packages\\grpc.net.common\\2.41.0\\grpc.net.common.2.41.0.nupkg.sha512",
     "C:\\Users\\mumu\\.nuget\\packages\\grpc.tools\\2.42.0\\grpc.tools.2.42.0.nupkg.sha512",
     "C:\\Users\\mumu\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
